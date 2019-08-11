@@ -4,7 +4,7 @@ module.exports = {
   playstore_link        : "https://fasttrackapp.netlify.com",                                  // Enter Google Play Store URL.
   google_analytics_ID   : "",                                        // Enter Google Analytics ID or ""
   presskit_download_link: "https://fasttrackapp.netlify.com",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-  video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
+  video_or_screenshot   : "",                                           // "screenshot" or "video"
   app_url               : "https://fasttrackapp.netlify.com",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "FAST TRACK",
@@ -37,12 +37,6 @@ module.exports = {
       description:
         "ส่งเอกสารออนไลน์",
       fontawesome_icon_name: "mobile",
-    },
-    {
-      title: "คัดแยกเอกสาร",
-      description:
-        "คัดแยกเอกสาร",
-        fontawesome_icon_name: "sync",
     },
     {
       title: "สรุปข้อมูล",
